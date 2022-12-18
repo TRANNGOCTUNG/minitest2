@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  let numbers = +prompt("Enter a Number");
+  let factorial = 1;
+  for(let i = 1; i <= numbers; i++) {
+    if(numbers == 0) {
+     document.write(numbers + "!" + " = " + factorial);
+    }
+    factorial *= i;
+  }
+  document.write(numbers + "!" + " = " + factorial);
+</script>
+</html>
